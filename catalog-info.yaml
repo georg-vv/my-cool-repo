@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-cool-repo
+  description: Repository created via Backstage
+  links:
+  - url: https://github.com/georg-vv/my-cool-repo
+    title: Repository
+    icon: dashboard
+  annotations:
+    github.com/project-slug: georg-vv/my-cool-repo
+spec:
+  type: service
+  owner: user:default/g.schwarzberlin
+  lifecycle: experimental
